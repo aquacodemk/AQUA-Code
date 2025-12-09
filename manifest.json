@@ -1,7 +1,7 @@
 {
   "name": "AQUA CODE",
   "short_name": "AQUA CODE",
-  "description": "Професионална апликација за ватерполо тренинг од Владо Смилевски",
+  "description": "Апликација за ватерполо тренинг од Владо Смилевски",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",

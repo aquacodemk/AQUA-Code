@@ -425,7 +425,7 @@ const App: React.FC = () => {
                             </div>
                             <div>
                                <h4 className="font-bold text-gray-800 dark:text-white">Email</h4>
-                               <p className="text-gray-600 dark:text-gray-400 mt-1 text-sm break-all">vlado.smilevski@aquacode.com</p>
+                               <p className="text-gray-600 dark:text-gray-400 mt-1 text-sm break-all">aquacodemk@gmail.com</p>
                                <p className="text-xs text-gray-500 dark:text-gray-500 mt-2">Одговораме во рок од 24 часа</p>
                             </div>
                          </div>
@@ -552,7 +552,7 @@ const App: React.FC = () => {
                                   <h4 className="font-bold text-gray-800 dark:text-white">Како да стигнете</h4>
                                   <ul className="mt-2 space-y-1 text-sm text-gray-600 dark:text-gray-300">
                                       <li>• Од градскиот плоштад: 5 минути пешки кон исток</li>
-                                      <li>• Автобуси: Линии 1, 3, 5 до постојка "Базен"</li>
+                                      <li>• Автобуси: Линија 4 до постојка "Базен"</li>
                                       <li>• Паркинг: Бесплатен пред базенот (20 места)</li>
                                   </ul>
                               </div>
