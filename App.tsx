@@ -165,6 +165,18 @@ const App: React.FC = () => {
     alert('Тренинг завршен! 💪');
   };
 
+  const resetStats = () => {
+    setStats({
+      total: 0,
+      streak: 0,
+      lastDate: null,
+      level: 'Почетник',
+      calories: 0
+    });
+    setActivityLog([]);
+    alert('Статистиката е успешно избришана.');
+  };
+
   const addGalleryImage = (base64: string, name: string) => {
     const newImage: GalleryImage = {
       id: Date.now(),
@@ -306,7 +318,7 @@ const App: React.FC = () => {
           />
         )}
         {activeTab === 'pro-plan' && <ProPlan />}
-        {activeTab === 'stats' && <Stats stats={stats} activityLog={activityLog} />}
+        {activeTab === 'stats' && <Stats stats={stats} activityLog={activityLog} resetStats={resetStats} />}
         {activeTab === 'gallery' && (
           <Gallery 
             images={galleryImages}
@@ -448,7 +460,7 @@ const App: React.FC = () => {
                             <div>
                                <h4 className="font-bold text-gray-800 dark:text-white">Локација</h4>
                                <p className="text-gray-600 dark:text-gray-400 mt-1">Градски Базен, Куманово</p>
-                               <p className="text-xs text-gray-500 dark:text-gray-500 mt-2">Сесии по договор</p>
+                               <p className="text-xs text-gray-500 dark:text-gray-500 mt-2"></p>
                             </div>
                          </div>
 
@@ -529,7 +541,7 @@ const App: React.FC = () => {
                                       </div>
                                       <div className="flex items-center gap-2">
                                           <Thermometer className="text-gray-400" size={16} />
-                                          <span className="text-sm text-gray-600 dark:text-gray-300">28°C температура</span>
+                                          <span className="text-sm text-gray-600 dark:text-gray-300">26°C температура</span>
                                       </div>
                                       <div className="flex items-center gap-2">
                                           <Users className="text-gray-400" size={16} />
