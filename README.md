@@ -1,11 +1,45 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# AQUA CODE
 
-  <h1>Built with AI Studio</h2>
+Професионална апликација за ватерполо тренинг.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Како да ја стартувате апликацијата локално
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **Инсталирајте Node.js**
+   - Симнете ја LTS верзијата од [nodejs.org](https://nodejs.org/)
 
-</div>
+2. **Инсталирајте ги библиотеките**
+   - Отворете Command Prompt (Terminal) во оваа папка.
+   - Напишете ја командата:
+     ```bash
+     npm install
+     ```
+
+3. **Стартувајте ја апликацијата**
+   - Напишете ја командата:
+     ```bash
+     npm run dev
+     ```
+   - Кликнете на линкот што ќе се појави (пр. http://localhost:5173/AquaCode/)
+
+## Поставување на GitHub
+
+За да ја качите апликацијата на GitHub:
+
+1. Иницијализирајте Git:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+2. Поврзете со GitHub (ако веќе не е поврзано):
+   ```bash
+   git remote add origin https://github.com/aquacodemk/AquaCode.git
+   ```
+
+3. Испратете го кодот:
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
