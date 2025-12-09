@@ -1,5 +1,5 @@
 {
-  "name": "AQUA CODE 1",
+  "name": "AQUA CODE",
   "description": "Апликација за ватерполо тренинг од Владо Смилевски. Креирајте рутини, следете статистика и подобрете ја вашата игра.",
   "requestFramePermissions": [
     "camera"
